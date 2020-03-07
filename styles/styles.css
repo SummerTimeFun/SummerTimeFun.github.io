@@ -87,13 +87,28 @@ h6 {
 
 }
 
+.herohi {
+    font-weight: 950;
+    text-transform: uppercase;
+    color: #000;
+}
+.hi {
+    font-weight: 550;
+    color: #000;
+    font-style: italic;
+}  
+
+.italic {
+    font-style: italic;
+}
+
 p {
   line-height: 3rem;
   margin-top: 1px;
 
 }
 
-  
+
 /* Top nav styles */
 .top-nav {
   background-color: rgba(255, 246, 239, 0.5);
@@ -187,7 +202,7 @@ main {
   margin-left: auto;
 }
 
-*/
+commented out to disable the button flip SE*/
 .projects a:hover,
 .projects a:active,
 .projects a:focus {

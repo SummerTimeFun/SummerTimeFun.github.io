@@ -103,11 +103,14 @@ h6 {
 
 .intro {
     color: #818181;
-    margin-right: 550px;
     font-weight: 300;
-    font-size: 1.9rem;
-    
+    font-size: 1.9rem;   
 }
+
+.introD {
+    max-width: 600px;
+}
+
 .summer {
     text-transform: none;
     font-weight: 400;

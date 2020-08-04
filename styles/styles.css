@@ -74,9 +74,11 @@ h4 {
   font-weight: bolder;
 }
 
+
 h5 {
   font-size: 2rem;
 }
+
 
 h6 {
     font-size: 1.3rem;
@@ -96,7 +98,25 @@ h6 {
     font-weight: 550;
     color: #000;
     font-style: italic;
-}  
+} 
+
+.intro {
+    color: gray;
+    margin-right: 550px;
+    font-weight: 300;
+    font-size: 1.9rem;
+    
+}
+.summer {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+.mainintro {
+    font-weight: 400;
+    font-size: 2.9rem;
+}
 
 .italic {
     font-style: italic;

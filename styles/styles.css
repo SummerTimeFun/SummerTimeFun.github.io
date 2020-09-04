@@ -132,6 +132,10 @@ p {
 
 }
 
+.whisper {
+    color: #838080;
+}
+
 
 /* Top nav styles */
 .top-nav {
@@ -264,6 +268,7 @@ footer .wrapper {
 .example-caption {
   font-style: italic;
   text-align: center;
+  color: #838080;
 }
 
 .main-title {

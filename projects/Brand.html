@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Summer</title>
+  <!-- link google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans|Righteous&display=swap"
+    rel="stylesheet">
+  <!-- link setup styles -->
+  <link rel="stylesheet" href="../styles/setup.css">
+  <!-- link stylesheet -->
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+  <header class="project-header">
+    <div class="top-nav">
+      <!-- wrapper -->
+      <div class="wrapper">
+        <div class="logo">
+          <h1 class="sr-only">Summer</h1>
+            <a href="../index.html"><img src="../assets/logo.png" alt="logo of Summer"></a>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="#projects" id="page">projects</a></li>
+            <li><a href="../about.html">about</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <!--end of wrapper-->
+    </div>
+
+    <div class="wrapper">
+      <div class="flex-container">
+        <div class="header-content">
+          <h2>Native Mobile App</h2>
+          <p>A native app on iOS and Android for an organization that offers a delivery management solution that helps businesses assign and track their local deliveries. This solution allows businesses to communicate with their drivers and customers.</p><br>
+            <p>
+                <b class="herohi">ROLES:</b> Product Design &amp; Research<br>
+                <b class="herohi">KEY SKILLS:</b> Mobile Design, Prototyping, Visual Design<br>
+                <b class="herohi">DURATION:</b> 1.3 Years<br>
+                <b class="herohi">TOOLS:</b> Figma, InVision, Materials Design, Human Interface Guidelines            
+            </p>
+          </div>
+        <div class="header-img"><a href="/GroJoPresentation.pdf" target="_blank">
+          <img src="../assets/Mobile/mobile_protfolio_head.png" alt="picture of app description"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="small-wrapper">
+      <h3 class="main-title" >Outline</h3>
+      <p>This case study illustrates the design process of a mobile app for delivery drivers. The app's primary goal is to provide a streamlined and efficient experience for delivery drivers while enabling them to manage their deliveries effectively.</p>
+    </section>
+      
+    <section class="small-wrapper">
+      <h3 class="main-title">COMPANY PROFILE</h3>
+      <p>Onfleet is the trusted last mile delivery solution for thousands of companies across dozens of industries including food and beverage, retail, e-commerce, furniture, pharmacy and more. The SaaS was a dashboard for Dispatchers and a Drivers app on Android and iOS. I was the first dedicated Product Designer on the mobile squad.  improving the experience for drivers. 
+</p>
+    </section>
+
+    <section class="small-wrapper">
+      <h3 class="main-title">process</h3>
+      <p>The first step was to conduct research on the target user group, which was delivery drivers employed by the organizations that used the dashboard. The research involved studying delivery drivers' pain points, preferences, and requirements to design features that support their needs. I worked closely with the UX Researcher to initiate user research. Working with the PM, we synthesized findings from the user research, my audit and data pulled from Amplitude and ProductBoard to determine the priority levels of each feature.</p>
+    <p>The first task we took on was feature parity. We wanted to bring some cohesion to the two apps. I was the first dedicated UX Designer on the squad; the devs had worked independently for four years. There were a lot of discrepancies in the flows on both platforms. To start, I performed an audit. I would test any differences I found in the platforms on both iOS and Android and determine which platform had better usability. From there, I  designed a new flow for the other platform utilizing native components for that specific OS. I would often take pieces from each, add my tweaks, and create a new flow.</p>
+    <p>Alongside the audit, the PM, UX Researcher, and I conducted user research interviews with a small group of drivers. This process provided valuable information on their pain points and how we could improve their experience with the app. Working with the PM, we synthesized findings from these two sources with data pulled from Amplitude and ProductBoard to determine priority levels of each feature we wanted to work on. The audit and interviews provided a jumping-off point for determining what features to work on next.</p>
+    </section>
+      <br>
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">01 linked tasks</h4><h6 class="whisper">Creating a flow to help drivers identify when there are multiple tasks</h6>
+     
+        <p>The dispatchers were able to combine tasks; the purpose was to handle multi-stop deliveries, i.e., pick-up from point A and drop-off at point B. The issues: tasks weren't visually linked for the drivers, and the tasks could be claimed individually in the Unassigned category. 
+The first step was to create logic that a linked task could be claimed without its parent/child. 
+We then created a visual indicator to showcase to drivers there were multiple tasks involved. This was especially important in Unassigned as the driver would need to know the amount of work they assigned themselves. This scenario's difficulty was sorting and presenting the Unassigned and Today tasks. </p>
+       
+        <div class="example-img">
+        <img src="../assets/Mobile/linked_tasks_wireflows.png" alt="Linked tasks wireflows">
+      </div>
+      <p class="example-caption">1.1 iOS Wireflows for final iteration of Linked tasks</p>
+        
+        <div class="example-img">
+        <img src="../assets/Mobile/linked_tasks_all_screens.png" alt="Linked tasks all screens">
+      </div>
+      <p class="example-caption">1.2 iOS &amp; Android screens for Linked tasks</p>
+    </section>
+      <br>
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">02 account deletion</h4><h6 class="whisper">designing a flow to allow users to permanently delete their accounts</h6>
+      <p>Comparative/Field analysis: every app analyzed had a scheduling/calendar function, but didn’t offer any much-needed suggestions or prompts. The lacking feature would leave the user confused and second-guessing how to water their specific plant. There needed to be more intuitive features built-in for this app to serve its purpose of reducing cognitive load and alleviate stress.</p>
+   
+        
+        <div class="example-img">
+        <img src="../assets/Mobile/account_deletion_android.png" alt="Android screens for account deletion">
+      </div>
+      <p class="example-caption">2.1 Android Account Deletion screens</p>
+     <div class="example-img">
+        <img src="../assets/Mobile/account_deletion_ios.png" alt="iOS screens for account deletion">
+      </div>
+      <p class="example-caption">2.2 Android Account Deletion screens</p>
+      <!--  <ul>
+        <li>1) Waterbot:</li>
+        <li>- scheduling feature was seamless</li>
+        <li>- simplicity made it easy to use</li>
+        <li>- usability was compromised due to this simplicity</li>
+        </ul>
+        <ul>
+        <li>2) Picture This:</li>
+        <li>- utilizes camera phone to identify plants</li>
+        <li>- plant identification feature very accurate</li>
+        <li>- did not have any other features</li>
+        </ul> -->
+    </section>
+      <br>
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">03 photo picker</h4><h6 class="whisper">designing a more robust way to add photos</h6>
+        
+     <p>I created User Flows for a few critical tasks to ascertain what steps the user must take before creating the architecture of the app.</p>
+    
+      <p>Designing a sitemap helped me organize information and discover which features would be an asset to create the journey intended for the user.</p>
+      <p>Aligning with my persona and goals, I determined the features to be included needed to be:</p>
+      <!--<ol>
+      <li>1) plant Identification either by photo upload or searching easy to search list</li>
+      <li>2) watering and fertilizing suggestions based on species</li>
+      <li>3) scheduling capabilities based off app suggestions with the capacity to override and enter dates manually</li>
+      <li>4) connection to main calendars available</li>
+      </ol> -->
+        
+        <div class="example-img">
+        <img src="../assets/Mobile/photo_selector_wireflows.png" alt="Photo Selector wireflows">
+      </div>
+      <p class="example-caption">3 Photo Selector wireflows</p>
+    </section>
+      
+      
+      <section class="small-wrapper">
+      <h4 class="sub-title orange">conclusion</h4>
+      <p>During my time on the mobile squad, we saw significant app advancements. We started the first research on the drivers. I  helped to create a cohesive process for the squad to follow. My most meaningful payoff was improving the working conditions for the stressful delivery driving job.</p>
+    </section>  
+    
+  </main> 
+  <footer>
+    <div class="wrapper">
+      <p>Illustration by Aum</p>
+
+      <p>copyright 2023 Summer.</p>
+    </div>
+  </footer>
+
+  <script src='https://code.jquery.com/jquery-3.4.0.min.js'
+    integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+  <script src="../script.js"></script>
+</body>
+
+</html>
